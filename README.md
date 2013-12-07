@@ -12,16 +12,14 @@ Features
 Usages
 ------
 
-1.		```C++
-		MeshWindow meshWindow;
+1.
+	MeshWindow meshWindow;
     	meshWindow.showMaximized();
-		```
 
-2.		```C++
-		MeshWidget mw;
+2.
+	MeshWidget mw;
     	mw.readObj("data/bunny.obj");
     	mw.showMaximized();
-		```
 
 Notices
 -------
