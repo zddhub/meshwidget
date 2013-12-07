@@ -1,0 +1,26 @@
+/*************************************
+ * Make trimesh2 simpler in Qt project
+ * Author:  zdd
+ * Email: zddhub@gmail.com
+**************************************/
+
+#include <QApplication>
+
+#include "meshwidget/meshwidget.h"
+#include "meshwidget/meshwindow.h"
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+
+//1:
+    MeshWindow meshWindow;
+    meshWindow.showMaximized();
+
+//2:
+//    MeshWidget mw;
+//    mw.readObj("data/bunny.obj");
+//    mw.showMaximized();
+
+    return a.exec();
+}
