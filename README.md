@@ -13,13 +13,15 @@ Usages
 ------
 
 1.
-	MeshWindow meshWindow;
-    	meshWindow.showMaximized();
+
+		MeshWindow meshWindow;
+		meshWindow.showMaximized();
 
 2.
-	MeshWidget mw;
-    	mw.readObj("data/bunny.obj");
-    	mw.showMaximized();
+
+		MeshWidget mw;
+		mw.readObj("data/bunny.obj");
+		mw.showMaximized();
 
 Notices
 -------
