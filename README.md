@@ -1,4 +1,4 @@
-meshwidget
+Meshwidget
 ==========
 
 Make [trimesh2][] simpler in Qt project
@@ -33,3 +33,5 @@ Contact
 -------
 
 <zddhub@gmail.com>
+
+[trimesh2]: http://gfx.cs.princeton.edu/proj/trimesh2/
